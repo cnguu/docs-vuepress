@@ -1,8 +1,30 @@
 {
+  "name": "docs-vuepress",
+  "version": "0.0.1",
+  "description": "Document Center based on vuepress.",
+  "keywords": [
+    "docs",
+    "vuepress",
+    "vuepress-docs",
+    "cnguu",
+    "yur"
+  ],
+  "homepage": "https://github.com/cnguu/docs-vuepress/",
+  "bugs": {
+    "url": "https://github.com/cnguu/docs-vuepress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnguu/docs-vuepress.git"
+  },
+  "license": "MIT",
+  "author": "cnguu <www@cnguu.cn>",
+  "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "serve": "vuepress serve docs"
+    "serve": "vuepress serve docs",
+    "push": "./push.sh"
   },
   "dependencies": {
     "vuepress": "^1.3.0",
