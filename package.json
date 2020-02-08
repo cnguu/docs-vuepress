@@ -28,6 +28,8 @@
     "push": "./push.sh"
   },
   "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.3.0",
+    "@vuepress/plugin-medium-zoom": "^1.3.0",
     "vuepress": "^1.3.0",
     "vuepress-plugin-serve": "^2.0.0"
   }

@@ -572,7 +572,7 @@ module.exports = {
 }
 ```
 
-## 添加评论
+## Add comment
 
 Supported comments:
 
