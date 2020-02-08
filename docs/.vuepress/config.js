@@ -10,13 +10,13 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en',
-      title: 'Docs',
-      description: 'Document Center'
+      title: 'ImWiki',
+      description: 'cnguu\'s docs'
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: '文档',
-      description: '文档中心'
+      title: 'ImWiki',
+      description: 'cnguu 的文档集'
     }
   },
   themeConfig,
@@ -27,5 +27,9 @@ module.exports = {
   dest: 'public',
   extraWatchFiles: [
     '/docs/.vuepress/config.js',
+    '/docs/.vuepress/config/head.js',
+    '/docs/.vuepress/config/markdown.js',
+    '/docs/.vuepress/config/plugins.js',
+    '/docs/.vuepress/config/themeConfig.js',
   ],
 };
