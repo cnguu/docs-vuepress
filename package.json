@@ -24,6 +24,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "serve": "vuepress serve docs",
+    "deploy": "./deploy.sh",
     "push": "./push.sh"
   },
   "dependencies": {
